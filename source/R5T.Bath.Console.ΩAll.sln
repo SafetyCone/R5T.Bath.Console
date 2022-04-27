@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bath.Console.Constructi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bath.Console.Testing", "R5T.Bath.Console.Testing\R5T.Bath.Console.Testing.csproj", "{3AC5489E-DA2B-4665-8763-60DBDF8785A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{DF298070-ADD9-45FC-9378-908D128062FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{3AC5489E-DA2B-4665-8763-60DBDF8785A1}.Release|x64.Build.0 = Release|Any CPU
 		{3AC5489E-DA2B-4665-8763-60DBDF8785A1}.Release|x86.ActiveCfg = Release|Any CPU
 		{3AC5489E-DA2B-4665-8763-60DBDF8785A1}.Release|x86.Build.0 = Release|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Debug|x64.Build.0 = Debug|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Debug|x86.Build.0 = Debug|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Release|x64.ActiveCfg = Release|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Release|x64.Build.0 = Release|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Release|x86.ActiveCfg = Release|Any CPU
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C926A697-8F66-4F5B-9646-54DDD7A5B0C1} = {DF298070-ADD9-45FC-9378-908D128062FE}
 	EndGlobalSection
 EndGlobal
